@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai Phuong Trinh Bac Hai</title>
+</head>
+<body>
+<script>
+    let a,b,c;
+    a=parseFloat(prompt("Nhap a"));
+    b=parseFloat(prompt("Nhap b"));
+    c=parseFloat(prompt("nhap c"));
+    D=b*b-4*a*c;
+
+    if (D<0){
+        alert("Phuong trinh vo nghiem")
+    }else if (D===0){
+        alert("Phuong trinh co nghiem la: " +(-b/(2*a)));
+    }else if (D>0){
+        alert("Phuong trinh co 2 nghiem la: " +(-b+Math.sqrt(D))/(2*a) +" "+ "va"+" " +(-b-Math.sqrt(D))/(2*a));
+    }
+</script>
+</body>
+</html>

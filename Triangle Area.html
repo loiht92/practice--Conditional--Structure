@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích tam giác vuông </title>
+</head>
+<body>
+<script>
+    let a, b, dt;
+    a = parseFloat(prompt("Nhập vào cạnh thứ nhất của tam giác "));
+    b = parseFloat(prompt("Nhập vào cạnh thứ hai của tam giác "));
+    dt = (a * b) / 2;
+    dt=parseFloat(dt);
+    if (a>0 && b>0){
+        alert("Diện tích của tam giác vuông là :" +dt);
+    }else {
+        alert("Không tính được diện tích của tam giác vuông ")
+    }
+</script>
+</body>
+</html>

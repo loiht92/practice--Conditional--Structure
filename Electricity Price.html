@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Gia Dien</title>
+</head>
+<body>
+<script>
+    let KWh = parseInt(prompt("Nhập vào số KWh"));
+    let Muc1 = 1000;
+    let Muc2 = 2000;
+    let Muc3 = 3000;
+    let Muc4 = 4000;
+
+    if (KWh > 0 && KWh <= 50) {
+        alert("Tiền điện phải nộp trong tháng là :" + KWh + "*" + Muc1 + "=" + KWh * Muc1 +" " + "dong")
+    } else if (KWh > 50 && KWh <= 100) {
+        alert("Tiền điện phải nộp trong tháng là :" + KWh + "*" + Muc2 + "=" + KWh * Muc2 +" " + "dong")
+    } else if (KWh > 100 && KWh <= 200) {
+        alert("Tiền điện phải nộp trong tháng là :" + KWh + "*" + Muc3 + "=" + KWh * Muc3 +" " + "dong")
+    } else if (KWh > 200) {
+        alert("Tiền điện phải nộp trong tháng là :" + KWh + "*" + Muc4 + "=" + KWh * Muc4 +" " + "dong")
+    }
+</script>
+</body>
+</html>
+
